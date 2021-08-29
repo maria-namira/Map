@@ -12,9 +12,8 @@
       "WithStatement"
     ]
   },
-  "no-multiple-empty-lines": [2,{
-    "max": 99999, 
-    "maxEOF": 0
-  }
-]
+  "eol-last":{
+   "eol-last": 0,
+   "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }]
+}
 }
